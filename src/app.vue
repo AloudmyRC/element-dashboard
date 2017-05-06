@@ -3,7 +3,7 @@
     <template v-if="!$route.meta.hidden">
       <!-- header start  -->
       <header class="db-header">
-        <router-link class="logo" :to="{path: '/list/filters'}">Element Dashboard</router-link>
+        <router-link class="logo" :to="{path: '/list/filters'}">物流管理系统</router-link>
         <div class="user-info" v-if="user.id">
           <span v-text="user.username"></span>
           <el-dropdown trigger="click">
